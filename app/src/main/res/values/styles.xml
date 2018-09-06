@@ -8,4 +8,79 @@
         <item name="colorAccent">@color/colorAccent</item>
     </style>
 
+
+    <style name="defaultheading">
+
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:textSize">48sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="defaultheading.h2">
+        <item name="android:textSize">30sp</item>
+    </style>
+
+    <style name="defaultheading.h3">
+        <item name="android:textSize">20sp</item>
+    </style>
+
+    <style name="defaultheading.h4">
+        <item name="android:textSize">50sp</item>
+    </style>
+
+    <style name="defaultline">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:layout_margin">20dp</item>
+    </style>
+
+    <style name="scalecatergorywidth">
+        <item name="android:layout_width">150dp</item>
+    </style>
+    <style name="scalecatergorywidth.aligncentre">
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="typeface_fontwidth">
+        <item name="android:layout_width">100dp</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="sizewidth">
+        <item name="android:layout_width">70dp</item>
+        <item name="android:gravity">center</item>
+
+    </style>
+
+    <style name="casewidth">
+        <item name="android:layout_width">110dp</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="letterspacingwidth">
+        <item name="android:layout_width">120dp</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="viewhorizontal">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">1dp</item>
+        <item name="android:background">@color/black</item>
+    </style>
+
+    <style name="viewvertical">
+        <item name="android:layout_width">1dp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:background">@color/black</item>
+    </style>
+    <style name="typeface_fontwidth.roboto">
+        <item name="android:text">Roboto</item>
+    </style>
+    <style name="casewidth.sentence">
+        <item name="android:text">Sentence</item>
+    </style>
+
 </resources>

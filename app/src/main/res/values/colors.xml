@@ -11,4 +11,6 @@
     <color name="purple">#bb62f2</color>
     <color name="paste">#50fbea</color>
     <color name="lightgreen">#84ff5b</color>
+    <color name="lightestyellow">#fffb8c</color>
+    <color name="black">#000000</color>
 </resources>

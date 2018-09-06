@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center">
+
+    <TextView
+        style="@style/defaultheading"
+        android:id="@+id/hd1"
+        android:text="Heading h1" />
+
+    <TextView
+        style="@style/defaultheading.h2"
+        android:id="@+id/hd2"
+        android:text="Heading h2"/>
+
+    <TextView
+        style="@style/defaultheading.h3"
+        android:id="@+id/hd3"
+        android:text="Heading h2"/>
+
+    <TextView
+        style="@style/defaultheading.h4"
+        android:id="@+id/hd4"
+        android:text="Heading h2"/>
+
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAllCaps="false"
+            android:text="click me"
+            android:textSize="24sp"
+            android:drawableLeft="@drawable/ic_navigate_before_black_24dp"
+            />
+
+    </LinearLayout>
